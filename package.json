@@ -1,0 +1,53 @@
+{
+	"name": "template-repos-cjs-esm",
+	"version": "1.0.0",
+	"description": "Template repository for convert Commonjs module to ES module",
+	"type": "module",
+	"main": "dist/index.js",
+	"exports": {
+		".": {
+			"default": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist",
+		"index.ts",
+		"rollup.config.js"
+	],
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "rollup -c",
+		"prebuild": "rimraf dist",
+		"lint": "yarn lint:format",
+		"lint:format": "prettier --write '**/*.{ts,js,json,md,yml}'",
+		"prepare": "husky install",
+		"postinstall": "npm run build"
+	},
+	"author": "Dev Protocol",
+	"license": "MIT",
+	"dependencies": {
+		"@rollup/plugin-commonjs": "^25.0.0",
+		"@rollup/plugin-json": "^6.0.1",
+		"@rollup/plugin-node-resolve": "^15.0.0",
+		"@rollup/plugin-typescript": "^11.1.5",
+		"@types/elliptic": "^6.4.17",
+		"elliptic": "^6.5.4",
+		"ethers": "^6.0.0",
+		"rimraf": "5.0.5",
+		"rollup": "^4.0.0",
+		"tslib": "^2.6.2",
+		"typescript": "5.2.2"
+	},
+	"devDependencies": {
+		"husky": "8.0.3",
+		"prettier": "3.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/dev-protocol/template-repos-cjs-esm.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dev-protocol/template-repos-cjs-esm/issues"
+	},
+	"homepage": "https://github.com/dev-protocol/template-repos-cjs-esm#readme"
+}
