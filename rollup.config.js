@@ -13,7 +13,7 @@ export default [
 				format: 'es',
 			},
 		],
-		plugins: [resolve(), commonjs(), json()],
+		plugins: [builtins(), resolve(), commonjs(), json()],
 	},
 	{
 		input: 'index.js',
