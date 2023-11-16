@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript'
+// import typescript from '@rollup/plugin-typescript'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import json from '@rollup/plugin-json'
@@ -6,17 +6,17 @@ import builtins from 'rollup-plugin-node-builtins'
 
 export default [
 	{
-		input: 'index.ts',
+		input: 'index.js',
 		output: [
 			{
 				dir: 'dist',
 				format: 'es',
 			},
 		],
-		plugins: [typescript(), resolve(), commonjs(), json()],
+		plugins: [resolve(), commonjs(), json()],
 	},
 	{
-		input: 'index.ts',
+		input: 'index.js',
 		output: [
 			{
 				dir: 'dist/browser',
@@ -24,7 +24,6 @@ export default [
 			},
 		],
 		plugins: [
-			typescript({ outDir: 'dist/browser' }),
 			builtins(),
 			resolve({ browser: true }),
 			commonjs({ browser: true }),
