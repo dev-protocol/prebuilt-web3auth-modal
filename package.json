@@ -1,5 +1,5 @@
 {
-	"name": "@devprotocol/prebuilt-web3auth-modal",
+	"name": "@devprotocol/bundled-web3auth-modal",
 	"version": "0.0.0",
 	"description": "Template repository for convert Commonjs module to ES module",
 	"type": "module",
@@ -49,10 +49,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/dev-protocol/prebuilt-web3auth-modal.git"
+		"url": "git+ssh://git@github.com/dev-protocol/bundled-web3auth-modal.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dev-protocol/prebuilt-web3auth-modal/issues"
+		"url": "https://github.com/dev-protocol/bundled-web3auth-modal/issues"
 	},
-	"homepage": "https://github.com/dev-protocol/prebuilt-web3auth-modal#readme"
+	"homepage": "https://github.com/dev-protocol/bundled-web3auth-modal#readme"
 }
