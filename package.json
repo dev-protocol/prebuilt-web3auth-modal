@@ -1,6 +1,6 @@
 {
 	"name": "@devprotocol/bundled-web3auth-modal",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Template repository for convert Commonjs module to ES module",
 	"type": "module",
 	"main": "./dist/index.js",
