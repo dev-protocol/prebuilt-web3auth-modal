@@ -1,1 +1,1 @@
-export * from 'elliptic'
+export * from '@web3auth/modal'
