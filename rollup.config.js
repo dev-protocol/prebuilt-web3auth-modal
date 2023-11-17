@@ -1,8 +1,26 @@
-// import typescript from '@rollup/plugin-typescript'
-import resolve from '@rollup/plugin-node-resolve'
+import _alias from '@rollup/plugin-alias'
 import commonjs from '@rollup/plugin-commonjs'
 import json from '@rollup/plugin-json'
-import builtins from 'rollup-plugin-node-builtins'
+import resolve from '@rollup/plugin-node-resolve'
+// import builtins from 'rollup-plugin-node-builtins'
+
+const alias = _alias({
+	entries: {
+		crypto: 'empty-module',
+		assert: 'empty-module',
+		http: 'empty-module',
+		https: 'empty-module',
+		os: 'empty-module',
+		url: 'empty-module',
+		zlib: 'empty-module',
+		stream: 'empty-module',
+		_stream_duplex: 'empty-module',
+		_stream_passthrough: 'empty-module',
+		_stream_readable: 'empty-module',
+		_stream_writable: 'empty-module',
+		_stream_transform: 'empty-module',
+	},
+})
 
 export default [
 	{
@@ -13,12 +31,7 @@ export default [
 				format: 'es',
 			},
 		],
-		plugins: [
-			resolve({ preferBuiltins: false }),
-			commonjs(),
-			builtins(),
-			json(),
-		],
+		plugins: [alias, resolve({ preferBuiltins: false }), commonjs(), json()],
 	},
 	{
 		input: 'index.js',
@@ -29,9 +42,10 @@ export default [
 			},
 		],
 		plugins: [
+			alias,
+			// builtins(),
 			resolve({ browser: true, preferBuiltins: false }),
 			commonjs({ browser: true }),
-			builtins(),
 			json(),
 		],
 	},

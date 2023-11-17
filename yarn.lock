@@ -268,6 +268,13 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@rollup/plugin-alias@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.0.1.tgz#c84a43e021f5e0ebf1cc3c5af518c8371251bb77"
+  integrity sha512-JObvbWdOHoMy9W7SU0lvGhDtWq9PllP5mjpAy+TUslZG/WzOId9u80Hsqq1vCUn9pFJ0cxpdcnAv+QzU2zFH3Q==
+  dependencies:
+    slash "^4.0.0"
+
 "@rollup/plugin-commonjs@^25.0.0":
   version "25.0.7"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-25.0.7.tgz#145cec7589ad952171aeb6a585bbeabd0fd3b4cf"
@@ -297,14 +304,6 @@
     deepmerge "^4.2.2"
     is-builtin-module "^3.2.1"
     is-module "^1.0.0"
-    resolve "^1.22.1"
-
-"@rollup/plugin-typescript@^11.1.5":
-  version "11.1.5"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-11.1.5.tgz#039c763bf943a5921f3f42be255895e75764cb91"
-  integrity sha512-rnMHrGBB0IUEv69Q8/JGRD/n4/n6b3nfpufUu26axhUcboUzv/twfZU8fIBbTOphRAe0v8EyxzeDpKXqGHfyDA==
-  dependencies:
-    "@rollup/pluginutils" "^5.0.1"
     resolve "^1.22.1"
 
 "@rollup/pluginutils@^5.0.1":
@@ -1830,6 +1829,11 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
+empty-module@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/empty-module/-/empty-module-0.0.2.tgz#13b4dd8d4afeddd35e50c18dcd788c51087f1545"
+  integrity sha512-NFzPF5kG18UwYoRaXIylf8mpFEGOePZmKnbv3WUsEFxPe0w8NXPovJfm8t+tYoKwYmyRdQ2bZUizl/EiElJ7+g==
+
 end-of-stream@^1.1.0, end-of-stream@^1.4.1, end-of-stream@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -3342,6 +3346,11 @@ signal-exit@^4.0.1:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
+
+slash@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
+  integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
 socket.io-client@^4.7.2:
   version "4.7.2"
