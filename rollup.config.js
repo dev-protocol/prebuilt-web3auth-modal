@@ -13,7 +13,12 @@ export default [
 				format: 'es',
 			},
 		],
-		plugins: [resolve({ preferBuiltins: false }), commonjs(), json()],
+		plugins: [
+			resolve({ preferBuiltins: false }),
+			commonjs(),
+			builtins(),
+			json(),
+		],
 	},
 	{
 		input: 'index.js',
@@ -26,6 +31,7 @@ export default [
 		plugins: [
 			resolve({ browser: true, preferBuiltins: false }),
 			commonjs({ browser: true }),
+			builtins(),
 			json(),
 		],
 	},
