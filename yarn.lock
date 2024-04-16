@@ -871,28 +871,28 @@
     "@walletconnect/window-getters" "^1.0.1"
     tslib "1.14.1"
 
-"@web3auth/base-plugin@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/base-plugin/-/base-plugin-8.2.0.tgz#bcbfdf2a3edd9e11112ca4e865981864289f9707"
-  integrity sha512-B8UqITCggQCyH+W8wtZQPtgjBnPOZl1+ZyvYdBRwEaMNBwN0xnbhVsgqxn0+fbHHOdj7cfhPc6el7Y3CAGLSeQ==
+"@web3auth/base-plugin@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/base-plugin/-/base-plugin-8.3.0.tgz#ef95228371e634ae9689f7ff3479faebd7387f20"
+  integrity sha512-CuFXk+a6phape8N49OrpDO39JUSApOQZ9cwVktfmaYwd+4RAnkSieC1osktVh0uyzFPYqqJJjeNzpI0l53ZClQ==
   dependencies:
-    "@web3auth/base" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
 
-"@web3auth/base-provider@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-8.2.0.tgz#1cef91d4a27cb98486c1000feae39f0a46797880"
-  integrity sha512-3itpy/w+OSzPOz5p94suryS+Ki9EFuKceMEgq/jCXt/aGFSfWIJbqbKcAVf+UTSFQDwhu0r8adrZM3XE6Rq5Ug==
+"@web3auth/base-provider@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-8.3.0.tgz#94018f9773af380ccb6b9d421ea95c09e7bf9ccf"
+  integrity sha512-gosGSHDlhnufEnYIM4HoSSrqo2YSAtOOzLw3v4HpFCrpBAwaQSM4JRufZXA42Q1GMztIMCN2jpaI1TiqQlW65A==
   dependencies:
     "@metamask/rpc-errors" "^6.2.1"
     "@toruslabs/base-controllers" "^5.5.5"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
-    "@web3auth/base" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
     json-rpc-random-id "^1.0.1"
 
-"@web3auth/base@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-8.2.0.tgz#e42c64dcf4b18e4234ebccf810484af951cdc29f"
-  integrity sha512-Db4L6aXRYLP53mraTfgxq2avndxAvHWFfX5l9u2ZG8WBF7UsfUa895Zto5rV8shnMHVbhgxUpapnwlrcWwL0zQ==
+"@web3auth/base@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-8.3.0.tgz#3c8f2fd9cdc97bd6806e36513f9ea69f0369757e"
+  integrity sha512-AAD6qP9tAifxH33Ahk3ivxz9v5N9qVjbD0p6jCqSKunRDrTq/jTS9em+MjdrcjYxEXrorC63jlXM7hYjmhoaow==
   dependencies:
     "@toruslabs/constants" "^13.2.0"
     "@toruslabs/http-helpers" "^6.1.1"
@@ -904,53 +904,53 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^8.0.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.2.0.tgz#8cead22e8e70cda6d9972aa4f3a343bd0da268ce"
-  integrity sha512-B/h6cRWkbLncRU1ce3ui1A+KmavvrU0YMAw9uiHnwJyADeAWrygE8S2WNXUJSkcwn8NN6fysfDgWAjl2Se62Kw==
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.3.0.tgz#b93a483534a2af3ee63d350b111da8f73efde1b4"
+  integrity sha512-Q5XPYQRsB3FD3rCT6fKZpELsy0/Mut/4qrEK1u2PUEfMpskCjjcHwm93GQDAhjh3c7LiPpOsATTApkZ2j0SWfw==
   dependencies:
-    "@web3auth/base" "^8.2.0"
-    "@web3auth/base-provider" "^8.2.0"
-    "@web3auth/no-modal" "^8.2.0"
-    "@web3auth/openlogin-adapter" "^8.2.0"
-    "@web3auth/ui" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
+    "@web3auth/base-provider" "^8.3.0"
+    "@web3auth/no-modal" "^8.3.0"
+    "@web3auth/openlogin-adapter" "^8.3.0"
+    "@web3auth/ui" "^8.3.0"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/no-modal@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.2.0.tgz#ecdb02b08a9a3909eea292ac482083ef2708483b"
-  integrity sha512-jpCQqWK4/OIfb7hVfEFa8hesKcsS7eP/hKTvdW6pL4YiPMfMREZVtXZRMgog7yPHFQDE6XWQL6wACUOtptxI5w==
+"@web3auth/no-modal@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.3.0.tgz#5b1e6f821be9f3a05b5fb77271a12d25c22ff21d"
+  integrity sha512-0HzxFj/3coCkdbYoY9RolWsu4wKnCMX/bBFfOlcmLM7rP7jBLLUb4h8yqqQ1jgS+9JqOcNlFJAwzWvtgSCQDqg==
   dependencies:
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.2.0"
-    "@web3auth/base-plugin" "^8.2.0"
-    "@web3auth/base-provider" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
+    "@web3auth/base-plugin" "^8.3.0"
+    "@web3auth/base-provider" "^8.3.0"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/openlogin-adapter@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/openlogin-adapter/-/openlogin-adapter-8.2.0.tgz#985aa374194387e1e9120b8bcc46255ff7604a09"
-  integrity sha512-RcCG0eIrbuFNmIiJbs7x9x8ihUB+3TvTVlo4ETSZ1Qk8sfXikKJC2Zouq5YfTfxmTjx3zu8lFT0/ZfpdWWG25A==
+"@web3auth/openlogin-adapter@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/openlogin-adapter/-/openlogin-adapter-8.3.0.tgz#f4dc1ec6f28b8f3963ce17bb51a9b544e0721e91"
+  integrity sha512-h08x9VgcCIc6hbJcFyVMXRhsX7Wqg2GoLhR43llvKQPo39MtOuk+xqy3rxXq31EawjkXAdjxdTpNfr1XSUYd3Q==
   dependencies:
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.2.0"
-    "@web3auth/base-provider" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
+    "@web3auth/base-provider" "^8.3.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/ui@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.2.0.tgz#3c57d3a584f256773e4af8d644432bd71e0f5fd5"
-  integrity sha512-FdGHaU9kqOsqAdYPC4/m/TGGKMhcQrDdVdMiQLHTmw+YCQ96HGkl2aESKaZujUmy3d44/E+B6MR0nK3nluY2nA==
+"@web3auth/ui@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.3.0.tgz#a1c784c2dea9660021d218b986bce845ff1c66a1"
+  integrity sha512-9OpO67g0TldFixCexT2DrRj0Ki972n2fr9rV15kgetgwxgGICGVBkZY22WaVW1NujcFIiayLVg6RWp+7D9+tIA==
   dependencies:
     "@toruslabs/http-helpers" "^6.1.1"
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.2.0"
+    "@web3auth/base" "^8.3.0"
     bowser "^2.11.0"
     classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
