@@ -612,25 +612,25 @@
     "@toruslabs/eccrypto" "^4.0.0"
     "@toruslabs/metadata-helpers" "5.1.0"
 
-"@toruslabs/openlogin-utils@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@toruslabs/openlogin-utils/-/openlogin-utils-8.1.0.tgz#a95e61f35826a2cc2567d115401aa21fea29dbfb"
-  integrity sha512-Dwr+h2ijnaF24psfXW/r6CguKko8DpvwsHuzjj12N/NNWbzPOL13I8kLl7FR89oD5mnyzttd2RlmaP5rmAwJsQ==
+"@toruslabs/openlogin-utils@^8.1.0", "@toruslabs/openlogin-utils@^8.1.2":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@toruslabs/openlogin-utils/-/openlogin-utils-8.1.2.tgz#e36b63c4ca397e2c2b5cb52acaf4d737589fce96"
+  integrity sha512-UpSb/ubgmu6N8O0wq06ZnUP3NOju8ZBMbVQK/CmbCP2Tba3S5eqvLaHE+7/FBWFeb+szEYX4FTgshEviUvlHjg==
   dependencies:
     "@toruslabs/constants" "^13.2.0"
     base64url "^3.0.1"
     color "^4.2.3"
 
 "@toruslabs/openlogin@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@toruslabs/openlogin/-/openlogin-8.1.0.tgz#ced017d0620bede484466238d91db0606bf13539"
-  integrity sha512-6JtoYdsOC+WOB19ae953uSRbDXUXrCut+SrWbK5eVYsZd/JnCzCOufp6ixmr8kgc0UN/9mQgI5uJWshrg2P2JA==
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@toruslabs/openlogin/-/openlogin-8.1.2.tgz#b07f6e2ad6ff053299436a9e67f677e69396445c"
+  integrity sha512-EHdbs4o4i4xu87IdLgd+EwZz9P6+VrxEF28z1cHE/4yq8toqr+Mdbv65Ab8RKMvJ2EFYL3XgRB+aEQQfFbGOPA==
   dependencies:
     "@toruslabs/constants" "^13.2.0"
     "@toruslabs/eccrypto" "^4.0.0"
     "@toruslabs/metadata-helpers" "^5.1.0"
     "@toruslabs/openlogin-session-manager" "^3.1.1"
-    "@toruslabs/openlogin-utils" "^8.1.0"
+    "@toruslabs/openlogin-utils" "^8.1.2"
     "@toruslabs/secure-pub-sub" "^0.2.0"
     bowser "^2.11.0"
     events "^3.3.0"
@@ -870,21 +870,21 @@
     "@walletconnect/window-getters" "^1.0.1"
     tslib "1.14.1"
 
-"@web3auth/base-provider@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-8.4.1.tgz#223491bd411f68388e3846c42385af3ef7c6bd33"
-  integrity sha512-PUh3+ZSalYHlhS8Rjhau1AHqp3qZ7Rx13weYPKY2DYFQzIqefXVCANP9/q4Of3NdQWxU1zQ5Xg5Edasae6Qb9A==
+"@web3auth/base-provider@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-8.5.0.tgz#cba385bd672c11250425a9c61379838baf2abbe7"
+  integrity sha512-T7JNsWac/ZXGaJC7sBxcLQRSoMzJqeIe57aWQ2vSH9iwLDLJErXLmX3eErKio6Oiovs3AV9JIwJhr2Dbwp+nSA==
   dependencies:
     "@metamask/rpc-errors" "^6.2.1"
     "@toruslabs/base-controllers" "^5.6.0"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
-    "@web3auth/base" "^8.4.1"
+    "@web3auth/base" "^8.5.0"
     json-rpc-random-id "^1.0.1"
 
-"@web3auth/base@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-8.4.1.tgz#b32074d7e5a24cff3363e5c8c8799540ac4f2a01"
-  integrity sha512-R3VOiG6cwTw4sO+inqFgVy9o8Shjpp4Sf+2GJXEM3yOLrR8+eIM53muIbTEL7luLW/KNOCjiRWdZF+6erYxQww==
+"@web3auth/base@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-8.5.0.tgz#73c42f2e692372eb9014cd5a97a3c97cfbcf2fd6"
+  integrity sha512-iSToRko5sUVmZdP+KgoOpO1wymAaMsF548u08Ww8tYeXLse5O8ESJP01o3txyc3gRt+B6lJeQCy8UAWbTAWzGw==
   dependencies:
     "@toruslabs/constants" "^13.4.0"
     "@toruslabs/http-helpers" "^6.1.1"
@@ -896,52 +896,52 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^8.0.0":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.4.1.tgz#8bdf69c062fa549ce1d097c5cca20379ecf7597b"
-  integrity sha512-8tSQJyucjBnpGUFG5IAr4aUPhxbKdKHQSfeecK0urMvI34xq3IZhW3QqPRU6BW3b5AEl4cb2YdMxUymqvcZacw==
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.5.0.tgz#0f6e2a7b8acfca9c8b9f840f0b6bf6f30a515b86"
+  integrity sha512-ZnLk5h+3IQii96h99DzGnJJrMYSIHyEhhFNQsHc+gCUYdWkon81WLgWestuwIavZAPFhkLxUg5kO9WaqsyDCeA==
   dependencies:
-    "@web3auth/base" "^8.4.1"
-    "@web3auth/base-provider" "^8.4.1"
-    "@web3auth/no-modal" "^8.4.1"
-    "@web3auth/openlogin-adapter" "^8.4.1"
-    "@web3auth/ui" "^8.4.1"
+    "@web3auth/base" "^8.5.0"
+    "@web3auth/base-provider" "^8.5.0"
+    "@web3auth/no-modal" "^8.5.0"
+    "@web3auth/openlogin-adapter" "^8.5.0"
+    "@web3auth/ui" "^8.5.0"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/no-modal@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.4.1.tgz#b63807a1f1d8b497b48b49eb40a6bac97572cc57"
-  integrity sha512-wHeiTglsCyDVZRc8Jg0HKcgDxKda5ig/9mx61YGA3dFok7B/4TTjR9BFpUfykcCTZOFmW7lWMemOWzjKRJpz8g==
+"@web3auth/no-modal@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.5.0.tgz#634243a171f360bfb990e38ef14d4c099f5792d4"
+  integrity sha512-vqb1dyCRBw3ov7EkT5GgE+Ztpyhp1f+W1YQzV142dSiExHkFRyNoUlgcpgeNeJ+DYMt4DfmJqQ52NSJ89pzdNw==
   dependencies:
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.4.1"
-    "@web3auth/base-provider" "^8.4.1"
+    "@web3auth/base" "^8.5.0"
+    "@web3auth/base-provider" "^8.5.0"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/openlogin-adapter@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/openlogin-adapter/-/openlogin-adapter-8.4.1.tgz#641ce7bfdc26cd2bd00b514696142576957565a2"
-  integrity sha512-RMVWZZyLUMhKI6IdyEs3mwDFTs9j872RqUCtHgtERZnH6+SHCPq3tY2kDjUnNtubUHKzQO0CF4Q3fadkze8chA==
+"@web3auth/openlogin-adapter@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/openlogin-adapter/-/openlogin-adapter-8.5.0.tgz#d0c1e06b2c23f46738bd523125a5790078cdc8f2"
+  integrity sha512-P880TYP71m/i0o5/Dj3foHA0vtYgirA065zCRrtF26n5Fam0AjMPMKXrRe6twWNAIHOtEE6jK1UXiAIASpyveg==
   dependencies:
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.4.1"
-    "@web3auth/base-provider" "^8.4.1"
+    "@web3auth/base" "^8.5.0"
+    "@web3auth/base-provider" "^8.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/ui@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.4.1.tgz#872ace95803c4342ea478bd57e5d8b90edea5918"
-  integrity sha512-mB3KZQRrcKXVQmJ8ZVZtt7HhqGHMJINQRUYffudKu6w3ok5S2QEc1sD69jVPjhDmvwv0bJyPHH7YGk5s4M0cgQ==
+"@web3auth/ui@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.5.0.tgz#7bcb6dbf5279dc2916810f53f201b04865355f17"
+  integrity sha512-ymLA/FmAqJT26BiUAvfuMKFuH9rzfrqT7oq17EGE+9QxTEmDHguLOM8CmKphgvRnTUJPjEjCH6ZFBfHBqMK/Wg==
   dependencies:
     "@toruslabs/http-helpers" "^6.1.1"
     "@toruslabs/openlogin" "^8.1.0"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
     "@toruslabs/openlogin-utils" "^8.1.0"
-    "@web3auth/base" "^8.4.1"
+    "@web3auth/base" "^8.5.0"
     bowser "^2.11.0"
     classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
@@ -1813,9 +1813,9 @@ husky@9.0.11:
   integrity sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==
 
 i18next@^23.11.3:
-  version "23.11.3"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.11.3.tgz#d269c9c15bae9d90ab291055cfc433089ca5f77b"
-  integrity sha512-Pq/aSKowir7JM0rj+Wa23Kb6KKDUGno/HjG+wRQu0PxoTbpQ4N89MAT0rFGvXmLkRLNMb1BbBOKGozl01dabzg==
+  version "23.11.4"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.11.4.tgz#3f0e620fd2cff3825324191615d0ab0a1eec3baf"
+  integrity sha512-CCUjtd5TfaCl+mLUzAA0uPSN+AVn4fP/kWCYt/hocPUwusTpMVczdrRyOBUwk6N05iH40qiKx6q1DoNJtBIwdg==
   dependencies:
     "@babel/runtime" "^7.23.2"
 
@@ -2801,11 +2801,9 @@ semver@^7.3.5:
     lru-cache "^6.0.0"
 
 semver@^7.5.4:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz#1a46a4db4bffcccd97b743b5005c8325f23d4e2d"
-  integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
-  dependencies:
-    lru-cache "^6.0.0"
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.2.tgz#1e3b34759f896e8f14d6134732ce798aeb0c6e13"
+  integrity sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==
 
 semver@~2.3.1:
   version "2.3.2"
