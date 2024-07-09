@@ -887,22 +887,22 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^8.0.0":
-  version "8.9.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.9.1.tgz#b3b621ac0ce99da14447c01d7c805ca418be6fca"
-  integrity sha512-XXaVoc5kEPkUDdPuv8nqVHMt1gtvEa7IPHCVQl0FFSotbrBUJo3rYYy520oK5N3IVLDj3SNMmnLK7mPjEOxbNA==
+  version "8.10.1"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.10.1.tgz#2ab0b36ba9883ab9c3a5b293ea36b383a4379b76"
+  integrity sha512-9HX0RxnOQughZ7iEz5SOil/LhXNrf9mM+epseLPzfQXriwvUO3XyW1xePBlUsjGwsce3wyNFjXL6hu9KV7OsEw==
   dependencies:
     "@web3auth/base" "^8.8.0"
     "@web3auth/base-provider" "^8.8.0"
-    "@web3auth/no-modal" "^8.9.1"
+    "@web3auth/no-modal" "^8.10.1"
     "@web3auth/openlogin-adapter" "^8.8.0"
     "@web3auth/ui" "^8.8.0"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
-"@web3auth/no-modal@^8.9.1":
-  version "8.9.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.9.1.tgz#0fc1e640fc3e9dd1685b5f515d5b2cd5358dab1b"
-  integrity sha512-XYmoEctLPNTNzKrIGuijz64zWUEVYAZeqbampQt/4sQbaIeQbjALS4KrtzUqkXft7jFPL9C1TzINStYP3B/gTw==
+"@web3auth/no-modal@^8.10.1":
+  version "8.10.1"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-8.10.1.tgz#73c80cda0d191ca3558c94a6f0a33469e1712ed3"
+  integrity sha512-D4zdiC6MyOpOazG4jfJhW9DIfB391zeEPSGmw/2hmjVZ3pvDvl/P/2AXAvrFFGDxh1yzvO+OT+hyhfpQ1KzOLg==
   dependencies:
     "@toruslabs/openlogin" "^8.2.1"
     "@toruslabs/openlogin-jrpc" "^8.1.1"
