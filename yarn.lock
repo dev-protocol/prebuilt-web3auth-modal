@@ -8,9 +8,9 @@
   integrity sha512-96Z2IP3mYmF1Xg2cDm8f1gWGf/HUVedQ3FMifV4kG/PQ4yEP51xDtRAEfhVNt5f/uzpNkZHwWQuUcu6D6K+Ekw==
 
 "@babel/runtime@^7.23.2", "@babel/runtime@^7.24.0", "@babel/runtime@^7.24.8":
-  version "7.25.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.25.4.tgz#6ef37d678428306e7d75f054d5b1bdb8cf8aa8ee"
-  integrity sha512-DSgLeL/FNcpXuzav5wfYvHCGvynXkJbn3Zvc3823AEe9nPwW9IK4UoCSS5yGymmQzN0pCPvivtgS6/8U2kkm1w==
+  version "7.25.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.25.6.tgz#9afc3289f7184d8d7f98b099884c26317b9264d2"
+  integrity sha512-VBj9MYyDb9tuLq7yzqjgzt6Q+IBQLrGZfdjOekyEirZPHxXWoTSGUTMrpsfi58Up73d13NfYLv8HT9vmznjzhQ==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -811,15 +811,15 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^8.0.0":
-  version "8.12.6"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.12.6.tgz#e69431f0add60c8c08ad34658875461e8a110e4a"
-  integrity sha512-DXN1B+V7/G+8Gws/Hy4PRtKhJxDqcZc5ESx/xQFq/kkivpvqEzu2h/EzfyRK1XxcYPep9QqH6a+6wCrnl2W/sg==
+  version "8.12.7"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-8.12.7.tgz#19d864dc09fb4c03e5d94c383ff7a92286f7ac25"
+  integrity sha512-/gtKVCicMU42OSy0Jle4qC8KLmCdXZR+Q2Gd98aRdAtXqZ+PLRyTwCZiba+aKavk5bqj0nItuHA0ugFK8oBa5A==
   dependencies:
     "@web3auth/base" "^8.12.4"
     "@web3auth/base-provider" "^8.12.4"
     "@web3auth/no-modal" "^8.12.4"
     "@web3auth/openlogin-adapter" "^8.12.4"
-    "@web3auth/ui" "^8.12.6"
+    "@web3auth/ui" "^8.12.7"
     lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
 
@@ -847,10 +847,10 @@
     "@web3auth/base-provider" "^8.12.4"
     lodash.merge "^4.6.2"
 
-"@web3auth/ui@^8.12.6":
-  version "8.12.6"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.12.6.tgz#12771f35312924501d19c5b7773b227d965104ca"
-  integrity sha512-YKpPzvOK1NX2duoBbGb0TPb/DMMKu/jws6wVvDwq4XMHmGyi0Nh8ZL/xklysX9WAzmmDaGZTL2UbivVwRrHlDg==
+"@web3auth/ui@^8.12.7":
+  version "8.12.7"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-8.12.7.tgz#38c2c6a8a2ade9475337d4c61e7ec60b42668f4f"
+  integrity sha512-7sUX0mOJtrA4L3KukLWi4d89IiUbspP+VVngK4T5a6jA73FO+i/E/EVyRgKgjHFJ6FoqM0EpR1DtFg76TP7pcQ==
   dependencies:
     "@toruslabs/http-helpers" "^6.1.1"
     "@toruslabs/openlogin" "^8.2.1"
