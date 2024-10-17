@@ -236,9 +236,9 @@
   integrity sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==
 
 "@nx/nx-linux-x64-gnu@^19.6.3":
-  version "19.8.4"
-  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.4.tgz#a65da197a58627c7b8210cff1be64d0cbcdab124"
-  integrity sha512-XcRBNe0ws7KB0PMcUlpQqzzjjxMP8VdqirBz7CfB2XQ8xKmP3370p0cDvqs/4oKDHK4PCkmvVFX60tzakutylA==
+  version "19.8.5"
+  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.5.tgz#e31dd1f569ca812fbf6e4229e91daa1f7eca2f18"
+  integrity sha512-5fCxgGp6gW/zBt3TpNM4L1h/srmnzW/PWkA8WWSIpiJAXFTWq/p1H83jcAmk/bXaUxwOtr3viIjm9F17HRCLMw==
 
 "@parcel/watcher-android-arm64@2.4.1":
   version "2.4.1"
@@ -1021,21 +1021,21 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^9.0.0":
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.2.3.tgz#76e114c8d0de92b2fb4f1ed79acca9c6e4455a94"
-  integrity sha512-59DbtEjFUpuV7PvSBXrD3cD1nDFfacJNGYF5FFr8VQWl5kjfAKp62e42LFEScSemKtZV7eCtRyygZ8oIm7NONA==
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.2.4.tgz#688c5169d50e90a5f4393feb2bc788acc8f71963"
+  integrity sha512-e8eC8vW8BbLHN83G/WDHIP5NjXAX3mBWAYu31x76xydHMbNWo45xrwGmf8+Wv0A3TF70CHsswFKGpMP9WJkXpg==
   dependencies:
     "@web3auth/auth-adapter" "^9.2.3"
     "@web3auth/base" "^9.2.3"
     "@web3auth/base-provider" "^9.2.3"
-    "@web3auth/no-modal" "^9.2.3"
+    "@web3auth/no-modal" "^9.2.4"
     "@web3auth/ui" "^9.2.3"
     deepmerge "^4.3.1"
 
-"@web3auth/no-modal@^9.2.3":
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.2.3.tgz#24bac2dbb5b2d319fe400aaba29d2c7ed9c4d144"
-  integrity sha512-OlqA8uPydsDA0+ZSuuNlNGhz4oKkOdiULOgHELPgLQlbLLXIwOd0tJ8kzV861xTfQMcywHM1Y3hGoKJKiTeRjQ==
+"@web3auth/no-modal@^9.2.4":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.2.4.tgz#9a3073ae7f0d0dd2a0d25518f0b131acc5390d9f"
+  integrity sha512-VtSaQ4paUlVsj7km0fcKoXLju4/cnjCjk2xiS6e+8dLmXYS//WZDcrvWL2+1f3edT1oSA6y0vEpb8GzmLJNJfA==
   dependencies:
     "@web3auth/auth" "^9.4.1"
     "@web3auth/base" "^9.2.3"
@@ -3177,12 +3177,12 @@ tslib@1.14.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@2.7.0, tslib@^2.1.0, tslib@^2.4.0:
+tslib@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
   integrity sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==
 
-tslib@^2.6.2:
+tslib@^2.1.0, tslib@^2.4.0, tslib@^2.6.2:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.0.tgz#d124c86c3c05a40a91e6fdea4021bd31d377971b"
   integrity sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==
