@@ -236,9 +236,9 @@
   integrity sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==
 
 "@nx/nx-linux-x64-gnu@^19.6.3":
-  version "19.8.5"
-  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.5.tgz#e31dd1f569ca812fbf6e4229e91daa1f7eca2f18"
-  integrity sha512-5fCxgGp6gW/zBt3TpNM4L1h/srmnzW/PWkA8WWSIpiJAXFTWq/p1H83jcAmk/bXaUxwOtr3viIjm9F17HRCLMw==
+  version "19.8.6"
+  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.6.tgz#8aafaab742b8c2c923aef62ddb6a2df35656a670"
+  integrity sha512-2/5WDr2wwWyvbqlB//ICWS5q3rRF4GyNX2NOp/tVkmh1RfDhH0ZAVZ/oJ7QvE1mKLQh0AM7bQBHsF5ikmMhUXw==
 
 "@parcel/watcher-android-arm64@2.4.1":
   version "2.4.1"
@@ -1021,15 +1021,15 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^9.0.0":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.2.4.tgz#688c5169d50e90a5f4393feb2bc788acc8f71963"
-  integrity sha512-e8eC8vW8BbLHN83G/WDHIP5NjXAX3mBWAYu31x76xydHMbNWo45xrwGmf8+Wv0A3TF70CHsswFKGpMP9WJkXpg==
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.2.5.tgz#b9721d30611c3291117577d3cd56b89b648d1cdb"
+  integrity sha512-qOA6klRfm+4jOXauJd3FbaqgHqH9RS+4eu3xx3hwVqr/NwODACh5rwDlcadggo2q4bIv8j5iWU2967JSl53Xyg==
   dependencies:
     "@web3auth/auth-adapter" "^9.2.3"
     "@web3auth/base" "^9.2.3"
     "@web3auth/base-provider" "^9.2.3"
     "@web3auth/no-modal" "^9.2.4"
-    "@web3auth/ui" "^9.2.3"
+    "@web3auth/ui" "^9.2.5"
     deepmerge "^4.3.1"
 
 "@web3auth/no-modal@^9.2.4":
@@ -1042,10 +1042,10 @@
     "@web3auth/base-provider" "^9.2.3"
     deepmerge "^4.3.1"
 
-"@web3auth/ui@^9.2.3":
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.2.3.tgz#ef7d01902fe028ad46bd1b071cf5a87e0b9b7688"
-  integrity sha512-i9KDeibtBgfYtEmmPyhh4TqNTDqcNWSOjRfulD0/EVprcE8MTX1+hJqg0oHSFVKCPDYnTqeNbnsz9yDyVZrv6Q==
+"@web3auth/ui@^9.2.5":
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.2.5.tgz#4b54625688c275187e0745fb3eec7807bc9350b3"
+  integrity sha512-uCiufubEPYVNcL7PLkGApdahGLuMmA2IAM0aM/WPQ4Sl4oNJaXkfMs2x2lYkWj/evDAajgkY490IdXgvlHzBqQ==
   dependencies:
     "@toruslabs/http-helpers" "^7.0.0"
     "@web3auth/auth" "^9.4.1"
