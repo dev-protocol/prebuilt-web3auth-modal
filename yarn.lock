@@ -236,9 +236,9 @@
   integrity sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==
 
 "@nx/nx-linux-x64-gnu@^19.6.3":
-  version "19.8.8"
-  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.8.tgz#96e8bb30abdbad17077fac5ac33229ea0234fee1"
-  integrity sha512-LCfnm42cQUrrch/8RqVgC46bYovX/ZcbP44pmTgrkChfrmxDhdaIfi0m1aUWpfize6DvCWxvmg8VEaV+Cf4/cg==
+  version "19.8.10"
+  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.10.tgz#bbfaeaa0aacca6da2aa49ea6d4c4ed0c5e189df2"
+  integrity sha512-Soxogm5eql+bj4SIY8uFQGJAh/ODsFhiztaA+NxkYnRJOrLIWw+gprHDpyTUi2y4erSj1lHu+DiIZQ43cHq2fw==
 
 "@parcel/watcher-android-arm64@2.5.0":
   version "2.5.0"
@@ -462,15 +462,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.24.4.tgz#1651fdf8144ae89326c01da5d52c60be63e71a82"
   integrity sha512-P8MPErVO/y8ohWSP9JY7lLQ8+YMHfTI4bAdtCi3pC2hTeqFJco2jYspzOzTUB8hwUWIIu1xwOrJE11nP+0JFAQ==
 
-"@rollup/rollup-linux-x64-gnu@4.24.4":
+"@rollup/rollup-linux-x64-gnu@4.24.4", "@rollup/rollup-linux-x64-gnu@^4.21.1", "@rollup/rollup-linux-x64-gnu@^4.22.4":
   version "4.24.4"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.24.4.tgz#e473de5e4acb95fcf930a35cbb7d3e8080e57a6f"
   integrity sha512-K03TljaaoPK5FOyNMZAAEmhlyO49LaE4qCsr0lYHUKyb6QacTNF9pnfPpXnFlFD3TXuFbFbz7tJ51FujUXkXYA==
-
-"@rollup/rollup-linux-x64-gnu@^4.21.1", "@rollup/rollup-linux-x64-gnu@^4.22.4":
-  version "4.24.3"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.24.3.tgz#e86172a407b2edd41540ec2ae636e497fadccff6"
-  integrity sha512-mnEOh4iE4USSccBOtcrjF5nj+5/zm6NcNhbSEfR3Ot0pxBwvEn5QVUXcuOwwPkapDtGZ6pT02xLoPaNv06w7KQ==
 
 "@rollup/rollup-linux-x64-musl@4.24.4":
   version "4.24.4"
@@ -654,9 +649,9 @@
     "@stablelib/wipe" "^1.0.1"
 
 "@toruslabs/base-controllers@^6.2.2":
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/@toruslabs/base-controllers/-/base-controllers-6.2.2.tgz#40369f0c3d260df53855b124a204513d4971166d"
-  integrity sha512-9kCeHqtUcTUD9zj1FnY8lbMWaRCceP9dn6s7XdSwuC/wS+rqIxrNwgfwfbvGUl9ZgcskJ7lyNXQqAwZ92Xlzig==
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/@toruslabs/base-controllers/-/base-controllers-6.2.4.tgz#6ca35dfe808c0a908b6d052c34e1bcb0b46fb6af"
+  integrity sha512-VRki0iYnSL3Chy2W/mwk2dc3tiLuSR5a/dwaapCNn3SgMGIEgnJMwq1wNQO1l5eaHgl3eN7b/IL8Y2DfqHnW4g==
   dependencies:
     "@ethereumjs/util" "^9.1.0"
     "@toruslabs/broadcast-channel" "^11.0.0"
@@ -1042,31 +1037,31 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^9.0.0":
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.3.1.tgz#9c2904b5bce79b21ff5534e68fa84f7f2014b5b7"
-  integrity sha512-o0FOvAAhmMY6V8efNFeSV3MKZgLaWwbI6SbmxiQvCkuXsCoS9gQEAT/q86rI0lkHRoAT99Ci+DVv5ohlr/d/Ew==
+  version "9.3.2"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.3.2.tgz#7525840ae271666c21731ec782daf8b574c8c227"
+  integrity sha512-FpOWUHdHpCeZ1qjcAOJrKU7i6llDF+rIKYjf198zs2pRDtNIg4QvZhk/7HAiEoggjmptTEUWx4IJum5sWK8QVQ==
   dependencies:
     "@web3auth/auth-adapter" "^9.3.0"
     "@web3auth/base" "^9.3.0"
     "@web3auth/base-provider" "^9.3.0"
-    "@web3auth/no-modal" "^9.3.1"
-    "@web3auth/ui" "^9.3.1"
+    "@web3auth/no-modal" "^9.3.2"
+    "@web3auth/ui" "^9.3.2"
     deepmerge "^4.3.1"
 
-"@web3auth/no-modal@^9.3.1":
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.3.1.tgz#9db6923d18e02703fceed603ce78001e3488a2a0"
-  integrity sha512-9yMvWHROUw3twhgFSFPhM1Pq9K7pQ4+XslYGvaZyo1DoCr9fWi0mQSdWlYuuwUzd6OtWNL5EgawBe0f9csAJmQ==
+"@web3auth/no-modal@^9.3.2":
+  version "9.3.2"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.3.2.tgz#9907f527362fc0890e5eecadace02c176c4f970d"
+  integrity sha512-d5y6cpEePnTVmeqBAsfdES/T7aPnLC9m2Lnd5yN+0psgII8b2vzO+h+wpiyUN+4ikp88oLnH+0ZwYOs3M9ySrA==
   dependencies:
     "@web3auth/auth" "^9.4.1"
     "@web3auth/base" "^9.3.0"
     "@web3auth/base-provider" "^9.3.0"
     deepmerge "^4.3.1"
 
-"@web3auth/ui@^9.3.1":
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.3.1.tgz#53f465d494d369d44b3ea30948434e0ba2c09b40"
-  integrity sha512-a9TVn4cXIrRoA/q2Ra4Za3bzw1bOfxyHknN6cE3Ju+pcqQWCFTcay/jcEju86Sh24qXRherDlkMhoPH05u8t1g==
+"@web3auth/ui@^9.3.2":
+  version "9.3.2"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.3.2.tgz#772c85121ea3c0005e0079940a79b4faa2207e1e"
+  integrity sha512-hV8GYHDNU2lA1kcD6DSOapWXvyw2XejRmX+6Hwk0Df1QVfnOfX/ihWTsBDIVCEPkgduMFysoPR4sHOs5EuaTwQ==
   dependencies:
     "@toruslabs/http-helpers" "^7.0.0"
     "@web3auth/auth" "^9.4.1"
