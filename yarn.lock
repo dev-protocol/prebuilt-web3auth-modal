@@ -236,9 +236,9 @@
   integrity sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==
 
 "@nx/nx-linux-x64-gnu@^19.6.3":
-  version "19.8.10"
-  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.10.tgz#bbfaeaa0aacca6da2aa49ea6d4c4ed0c5e189df2"
-  integrity sha512-Soxogm5eql+bj4SIY8uFQGJAh/ODsFhiztaA+NxkYnRJOrLIWw+gprHDpyTUi2y4erSj1lHu+DiIZQ43cHq2fw==
+  version "19.8.11"
+  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-19.8.11.tgz#40a482d7d368b98d7b2c98e0cc33abb937a46e37"
+  integrity sha512-UXrZbyKUSW3gr5pebKQLDVlBwgR82jZFtvDWIw1a2V7cutdBDf5Qb7pfLXWxkEWQXpijE6yBK2UtO36DVahDBg==
 
 "@parcel/watcher-android-arm64@2.5.0":
   version "2.5.0"
@@ -462,15 +462,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.27.2.tgz#4941df3416caeecd265e718aa9e0a20efcb187bf"
   integrity sha512-NHGo5i6IE/PtEPh5m0yw5OmPMpesFnzMIS/lzvN5vknnC1sXM5Z/id5VgcNPgpD+wHmIcuYYgW+Q53v+9s96lQ==
 
-"@rollup/rollup-linux-x64-gnu@4.27.2":
+"@rollup/rollup-linux-x64-gnu@4.27.2", "@rollup/rollup-linux-x64-gnu@^4.24.4":
   version "4.27.2"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.27.2.tgz#8c2df25367b4814727d32d74d7028f901c6288b1"
   integrity sha512-PaW2DY5Tan+IFvNJGHDmUrORadbe/Ceh8tQxi8cmdQVCCYsLoQo2cuaSj+AU+YRX8M4ivS2vJ9UGaxfuNN7gmg==
-
-"@rollup/rollup-linux-x64-gnu@^4.24.4":
-  version "4.24.4"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.24.4.tgz#e473de5e4acb95fcf930a35cbb7d3e8080e57a6f"
-  integrity sha512-K03TljaaoPK5FOyNMZAAEmhlyO49LaE4qCsr0lYHUKyb6QacTNF9pnfPpXnFlFD3TXuFbFbz7tJ51FujUXkXYA==
 
 "@rollup/rollup-linux-x64-musl@4.27.2":
   version "4.27.2"
@@ -988,9 +983,9 @@
     deepmerge "^4.3.1"
 
 "@web3auth/auth@^9.3.3", "@web3auth/auth@^9.5.0":
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/auth/-/auth-9.5.0.tgz#0f566e3d6915813531ec471380904cc2b9b87078"
-  integrity sha512-7tTQFNypsAy+6oV4i5/nucISnttHpxweToZXVtgNxmhljvLWGyrRIB7kMfh+R0+euW2l0hwOn3+ngbmRz2CMQQ==
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/@web3auth/auth/-/auth-9.5.1.tgz#ae9d94e753572ea6f53928c1c33c437603ad219c"
+  integrity sha512-+4VQg0JxD4B1iX8TXOqX6GeC4JfQdjmyux6nEHKF9TtxIJvuAdVTXEx48q/CeOSHBAfwjyGrj0Xiik1ZDBIzlg==
   dependencies:
     "@ethereumjs/util" "^9.1.0"
     "@toruslabs/constants" "^14.1.1"
@@ -1044,15 +1039,15 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^9.0.0":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.4.0.tgz#c67934ec75a1c13f466add1f3e56d41e4c71a25b"
-  integrity sha512-6kZp6WOwjWop6/0QLkzHY0DKHtSBQOyYPDkXpO+Afdr8kSI3tlEchHmj0JuHZYiYNelGappULWcYaxo9Y0QV6w==
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.4.1.tgz#cc7898f0cb635f211f1f30b50dec86c3dd5335c8"
+  integrity sha512-P1FvPf1Qos6WtLulG1kvkbmXAcflXEz9tHid7ejjfnMew0r6nMiaiO3r2JhlXt7n07U9J/qRiV+e7qDgvOOxRQ==
   dependencies:
     "@web3auth/auth-adapter" "^9.4.0"
     "@web3auth/base" "^9.4.0"
     "@web3auth/base-provider" "^9.4.0"
     "@web3auth/no-modal" "^9.4.0"
-    "@web3auth/ui" "^9.4.0"
+    "@web3auth/ui" "^9.4.1"
     deepmerge "^4.3.1"
 
 "@web3auth/no-modal@^9.4.0":
@@ -1065,10 +1060,10 @@
     "@web3auth/base-provider" "^9.4.0"
     deepmerge "^4.3.1"
 
-"@web3auth/ui@^9.4.0":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.4.0.tgz#3621aa887cc8252e2ff8b3ef21c6a405210da690"
-  integrity sha512-vwBpNWUyvyQxVfhlv2+lwuyVANRbIcH2LFa4vPXW7dBNAwwaxQKb1OAo3CG2EnoZuLIyaf1jCcj9J0csxgRxWQ==
+"@web3auth/ui@^9.4.1":
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.4.1.tgz#02546f0c4d7394d0d301b33fa3e5a2649b8b8ec4"
+  integrity sha512-Xd75ls0+uMFa24loaZxjUuRPOX8zUvISmR7umc76DwVacmhL6YfQtev85NbYSrlSURDCrhNqUEIvMmGU3pEr/g==
   dependencies:
     "@toruslabs/http-helpers" "^7.0.0"
     "@web3auth/auth" "^9.5.0"
@@ -1214,10 +1209,15 @@ bl@~0.8.1:
   dependencies:
     readable-stream "~1.0.26"
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
+bn.js@^4.0.0, bn.js@^4.1.0:
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
   integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
+
+bn.js@^4.11.9:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.1.tgz#215741fe3c9dba2d7e12c001d0cfdbae43975ba7"
+  integrity sha512-k8TVBiPkPJT9uHLdOKfFpqcfprwBFOAAXXozRubr7R7PfIuKvQlzcI4M0pALeqXN09vdaMbUdUj+pass+uULAg==
 
 bn.js@^5.0.0, bn.js@^5.2.1:
   version "5.2.1"
@@ -1635,7 +1635,7 @@ elliptic@6.5.4, elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-elliptic@6.6.0, elliptic@^6.5.5:
+elliptic@6.6.0:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.6.0.tgz#5919ec723286c1edf28685aa89261d4761afa210"
   integrity sha512-dpwoQcLc/2WLQvJvLRHKZ+f9FgOdjnq11rurqwekGQygGPsYSK29OMMD2WalatiqQ+XGFDglTNixpPfI+lpaAA==
@@ -1652,6 +1652,19 @@ elliptic@^6.5.4, elliptic@~6.5.5:
   version "6.5.7"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.7.tgz#8ec4da2cb2939926a1b9a73619d768207e647c8b"
   integrity sha512-ESVCtTwiA+XhY3wyh24QqRGBoP3rEdDUl3EDUUo9tft074fi19IrdpH7hLCMMP3CIj7jb3W96rn8lt/BqIlt5Q==
+  dependencies:
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
+    hash.js "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
+
+elliptic@^6.5.5:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.6.1.tgz#3b8ffb02670bf69e382c7f65bf524c97c5405c06"
+  integrity sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==
   dependencies:
     bn.js "^4.11.9"
     brorand "^1.1.0"
