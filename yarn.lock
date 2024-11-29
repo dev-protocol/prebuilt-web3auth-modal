@@ -231,14 +231,14 @@
   integrity sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==
 
 "@noble/hashes@^1.2.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.6.0.tgz#d4bfb516ad6e7b5111c216a5cc7075f4cf19e6c5"
-  integrity sha512-YUULf0Uk4/mAA89w+k3+yUYh6NrEvxZa5T6SY3wlMvE2chHkxFUUIDI8/XW1QSC357iA5pSnqt7XEhvFOqmDyQ==
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.6.1.tgz#df6e5943edcea504bac61395926d6fd67869a0d5"
+  integrity sha512-pq5D8h10hHBjyqX+cfBm0i8JUXJ0UhczFc4r74zbuT9XgewFo2E3J1cOaGtdZynILNmQ685YWGzGE1Zv6io50w==
 
 "@nx/nx-linux-x64-gnu@^20.1.2":
-  version "20.1.3"
-  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-20.1.3.tgz#85c14044c145a28618c9ba11262ee13ac59b602d"
-  integrity sha512-RKNm7RnTgCSl2HstDb/qMKO9r8o81EUe+UZB5fgjNR89PB757iHUX30kM0xbkiRZui1vIkMAvWcNsidxBnGGfg==
+  version "20.1.4"
+  resolved "https://registry.yarnpkg.com/@nx/nx-linux-x64-gnu/-/nx-linux-x64-gnu-20.1.4.tgz#15062b9a02ee5d2abac3cfeb89b1571231644897"
+  integrity sha512-vaWV37ZayfyckVI/faWdQWIV9XQb06ZT8jHQnwgSd9tKbGz37vN30eYtgZlFL0P4bHfhjtmMXnLvADmfyO/KOw==
 
 "@parcel/watcher-android-arm64@2.5.0":
   version "2.5.0"
@@ -648,10 +648,10 @@
     "@stablelib/random" "^1.0.2"
     "@stablelib/wipe" "^1.0.1"
 
-"@toruslabs/base-controllers@^6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@toruslabs/base-controllers/-/base-controllers-6.3.1.tgz#9296d3e4ded63ce908665af91010a1e197cb0bde"
-  integrity sha512-7kqaoXL32xJnrGEb8Rd5V/WLjTovzKjRMg/Tw3NFYz5lxVLVf+ydK83hgAWp7fYRRjnUyZZ5aHyIbagTkj1NVQ==
+"@toruslabs/base-controllers@^6.3.2":
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/@toruslabs/base-controllers/-/base-controllers-6.3.2.tgz#570d0889d0a42ce032e99069396ae4243fe50b41"
+  integrity sha512-YnRAtEM9jVR71ZDPSJtb1P1biAz322hv9R3jKh7SttfI//JPvtw8UdSCCQjSF5cAWLqgOupqq15p+p9Ka0bSPA==
   dependencies:
     "@ethereumjs/util" "^9.1.0"
     "@toruslabs/broadcast-channel" "^11.0.0"
@@ -676,10 +676,10 @@
     socket.io-client "^4.7.5"
     unload "^2.4.1"
 
-"@toruslabs/constants@^14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@toruslabs/constants/-/constants-14.1.1.tgz#9a60b466804d1eb454633ef50c3ec91db6713579"
-  integrity sha512-+/ur6lXjMto4FdJR5Y6HqFiEX/8hea9usgwt99neV3IT46auC5NyVdiG6qmohuy67ThLt7IMCIyuJY78eC875g==
+"@toruslabs/constants@^14.1.1", "@toruslabs/constants@^14.2.0":
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/@toruslabs/constants/-/constants-14.2.0.tgz#63e2551c08331564330b2b8626536617261f1a9b"
+  integrity sha512-Mb5EfYNSPyvvw5s1JXnpZwritCgp4NmLni1imTqrSKGV3yikYhUn1ufyLMAHGnBBgv4AuMIXBIe3EpJJ+SpA0g==
 
 "@toruslabs/eccrypto@^5.0.0", "@toruslabs/eccrypto@^5.0.4":
   version "5.0.4"
@@ -972,14 +972,14 @@
     "@walletconnect/window-getters" "^1.0.1"
     tslib "1.14.1"
 
-"@web3auth/auth-adapter@^9.4.4":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/auth-adapter/-/auth-adapter-9.4.4.tgz#fd9746eacfef6d07b2c1bcb8a881bfd67ffa040c"
-  integrity sha512-kvT4KZanWid/gCOrS4Mup3s9gY9KIQWmRTcIXaU6rX6qPYQpfJU/6vsr2gb0rLQru5rY604QWUlZ9VWZdK7zJg==
+"@web3auth/auth-adapter@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/auth-adapter/-/auth-adapter-9.4.5.tgz#9e3a84253e4e5783c82764faa3bd9278af7ddd9d"
+  integrity sha512-Q9/GnW8DOCYS1rnVL84V4CHYxdxiryHU5+RnmldPzHUlhDl+L41zjFYoH3mm+U7WNnJCfiLKgcEnPurMz10i+w==
   dependencies:
     "@web3auth/auth" "^9.5.3"
-    "@web3auth/base" "^9.4.4"
-    "@web3auth/base-provider" "^9.4.4"
+    "@web3auth/base" "^9.4.5"
+    "@web3auth/base-provider" "^9.4.5"
     deepmerge "^4.3.1"
 
 "@web3auth/auth@^9.5.2", "@web3auth/auth@^9.5.3":
@@ -1015,23 +1015,23 @@
     "@nx/nx-linux-x64-gnu" "^20.1.2"
     "@rollup/rollup-linux-x64-gnu" "^4.27.3"
 
-"@web3auth/base-provider@^9.4.4":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-9.4.4.tgz#e09c710664a3a2aff5c0c41e19c3abecd4d7f959"
-  integrity sha512-eG+dNEfZOFWYbUBBYu7G5xmxtxS8wLqD6VE1sA4AqKXgTFKmDvijjeeWH/q7fUX5KA7bPMqMV5U22FPaeAMMwQ==
+"@web3auth/base-provider@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/base-provider/-/base-provider-9.4.5.tgz#62d1c20e02ce4427998db2cd7df3ff469b896839"
+  integrity sha512-Q+1HnG0bQFOHNhiw0BnuRLKpOh3O/iicl1kp4K8TtUOQC/4JTsY0odehQ1phBOr1IxROTjmDl/QW3coST3CSVA==
   dependencies:
-    "@toruslabs/base-controllers" "^6.3.1"
+    "@toruslabs/base-controllers" "^6.3.2"
     "@web3auth/auth" "^9.5.3"
-    "@web3auth/base" "^9.4.4"
+    "@web3auth/base" "^9.4.5"
     json-rpc-random-id "^1.0.1"
 
-"@web3auth/base@^9.4.4":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-9.4.4.tgz#4117baa4dc78632f225dea62a6bbb882efa5c181"
-  integrity sha512-tL5TxPzuJyIyoQBAKm7k1lWsdp2/i+FWShQiQJKf131FgE50akGzL/a/eCXf04qrggR5BEzEVDUz3DNwfprojQ==
+"@web3auth/base@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/base/-/base-9.4.5.tgz#07cc3254b4e489d6083d39b1b082d236cb8ab347"
+  integrity sha512-ETyrRnsJIV9Xab9lkUL6EUVP1FKzal49yDFrZIOv1mtZhafhXNcmo5aOxLXF/LbUCDs37CereqQovujGUWzZXQ==
   dependencies:
-    "@toruslabs/base-controllers" "^6.3.1"
-    "@toruslabs/constants" "^14.1.1"
+    "@toruslabs/base-controllers" "^6.3.2"
+    "@toruslabs/constants" "^14.2.0"
     "@toruslabs/http-helpers" "^7.0.0"
     "@web3auth/auth" "^9.5.3"
     jwt-decode "^4.0.0"
@@ -1039,41 +1039,41 @@
     ts-custom-error "^3.3.1"
 
 "@web3auth/modal@^9.0.0":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.4.4.tgz#e7a451731bd3585d115326be44d7adf4966e1747"
-  integrity sha512-OxTrqPLXXQPIieXzDmxtlYxCDxUgcUbdchTLu1c+16frej9lGLNo6+GlF4j+kftIS/FG0GC9ncHEl9qHN88lgQ==
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/modal/-/modal-9.4.5.tgz#582b0ce7fdeeed09488611775fcc80fc75bbb97b"
+  integrity sha512-Z2cuXpgfFfAPqQSf74/Ns4CQVhsVXswRtbBCxK89OXdUv/dLbqpxjHXEWpd1S6NePjIG3tUj1tyKVv5e6F4UeA==
   dependencies:
-    "@web3auth/auth-adapter" "^9.4.4"
-    "@web3auth/base" "^9.4.4"
-    "@web3auth/base-provider" "^9.4.4"
-    "@web3auth/no-modal" "^9.4.4"
-    "@web3auth/ui" "^9.4.4"
+    "@web3auth/auth-adapter" "^9.4.5"
+    "@web3auth/base" "^9.4.5"
+    "@web3auth/base-provider" "^9.4.5"
+    "@web3auth/no-modal" "^9.4.5"
+    "@web3auth/ui" "^9.4.5"
     deepmerge "^4.3.1"
 
-"@web3auth/no-modal@^9.4.4":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.4.4.tgz#3267ed00774d7312b1b1bf08241c6628e985ab7c"
-  integrity sha512-Tx2rT0ES3fQLmgFDu9dvWUPfk/Q6d1DVdeS39g7eZAXvQ10vIDMU+DKGBLh7K7972wonp+f2DsEtnbP8LvdNvg==
+"@web3auth/no-modal@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/no-modal/-/no-modal-9.4.5.tgz#17890edd2acd317ed76c2e472423755c02e9d8b0"
+  integrity sha512-ct6tyE4d1fkTawHKIC0Gf2sOkaYSoRUKtf6nJQO3Brf53PE4DqnkvS42fcEV6ZCb9MPBTzhB0cw0ds7jAOGPxQ==
   dependencies:
     "@web3auth/auth" "^9.5.3"
-    "@web3auth/base" "^9.4.4"
-    "@web3auth/base-provider" "^9.4.4"
+    "@web3auth/base" "^9.4.5"
+    "@web3auth/base-provider" "^9.4.5"
     deepmerge "^4.3.1"
 
-"@web3auth/ui@^9.4.4":
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.4.4.tgz#4440a8be53e0dac7ffa0d2e8b60f4eaa6a3528cd"
-  integrity sha512-Le/91ipuOMtmSGMYfMR55zLJcrnjepbhv55QT4FQDEEuMGiouL10UVdaEmVgwI+uqvZn814u8InUxAqhln+Ojw==
+"@web3auth/ui@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@web3auth/ui/-/ui-9.4.5.tgz#7ef9ef0dd8acd3921922b02901796cccab0e4505"
+  integrity sha512-R61t2pyGwtT3QvGU3e/ImWbuaR23xfHAjJgU56ure5XrR6lyc5PfVPZtpEfZ+KBa06lnI+xDxVWFMusZabYGNQ==
   dependencies:
     "@toruslabs/http-helpers" "^7.0.0"
     "@web3auth/auth" "^9.5.3"
-    "@web3auth/base" "^9.4.4"
+    "@web3auth/base" "^9.4.5"
     bowser "^2.11.0"
     classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
     deepmerge "^4.3.1"
     i18next "^23.16.8"
-    react-i18next "^15.1.1"
+    react-i18next "^15.1.2"
     react-qrcode-logo "^3.0.0"
 
 abort-controller@^3.0.0:
@@ -2813,10 +2813,10 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
-react-i18next@^15.1.1:
-  version "15.1.1"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-15.1.1.tgz#30bc76b39ded6ee37f1457677e46e6d6f11d9f64"
-  integrity sha512-R/Vg9wIli2P3FfeI8o1eNJUJue5LWpFsQePCHdQDmX0Co3zkr6kdT8gAseb/yGeWbNz1Txc4bKDQuZYsC0kQfw==
+react-i18next@^15.1.2:
+  version "15.1.2"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-15.1.2.tgz#e7ea4ef952736eca9e3e1ff0229f2dcd61b8332a"
+  integrity sha512-tl7AfbWyz9a4BefFXnVooc+gvQBVlavUkVTphGUcvhsNmbRf5UixJVdHeSFkE4gUyQkmFPYHVwTuxIdHjfQgiA==
   dependencies:
     "@babel/runtime" "^7.25.0"
     html-parse-stringify "^3.0.1"
@@ -3359,9 +3359,9 @@ void-elements@3.1.0:
   integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
 
 which-typed-array@^1.1.14, which-typed-array@^1.1.2:
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.15.tgz#264859e9b11a649b388bfaaf4f767df1f779b38d"
-  integrity sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.16.tgz#db4db429c4706feca2f01677a144278e4a8c216b"
+  integrity sha512-g+N+GAWiRj66DngFwHvISJd+ITsyphZvD1vChfVg6cEdnzy53GzB3oy0fUNlvhz7H7+MiqhYr26qxQShCpKTTQ==
   dependencies:
     available-typed-arrays "^1.0.7"
     call-bind "^1.0.7"
